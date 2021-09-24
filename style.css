@@ -1,0 +1,199 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    padding-bottom: 100px;
+    width: auto;
+    display: flex;
+    flex-shrink: 0;
+    flex-basis: auto;
+    flex-direction: column;
+    background-color: #1F2937;
+    
+}
+
+#header #nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;    
+    padding: 20px 200px 80px 200px;
+    background-color: #1F2937;
+
+}
+
+#header #nav-bar #hlogo{
+    font-weight:bold;
+    font-size: 25px;
+    flex: 1 1 0;  
+}
+
+#hb1{
+    margin-left: auto;
+    flex-shrink: 0;
+    
+}
+.hb{
+    margin-right: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+#hb3{
+    margin-right: 0px;
+    flex-shrink: 0;
+}
+
+
+#header-content{
+    display: flex;
+    background-color:  #1F2937;
+    flex: 1 1 0;  
+    gap:50px;
+    justify-self: center;
+}
+#header-content #landing-text{
+    margin-left: 200px;
+    flex: 1 1 auto;
+     flex: 1 1 0;  
+    width: 50%;
+    color: white;
+}
+
+#header-content #landing-text #awesome-text{
+    font-size: 48px;
+    flex: 1 1 0;  
+    font-weight: bolder;
+}
+
+#sign-up{
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    border-radius: 5px;
+    flex: 1 1 0;  
+    border: 0;
+    transition: all 0.25s;
+}
+#sign-up:hover{
+    box-shadow: -1px 7px 5px -5px rgba(255,255,255,0.75);
+    transform: translateY(-2.5px);
+    color: orange;
+    flex: 1 1 0;  
+    cursor: pointer;
+}
+#header-content #header-image-div{
+  
+    flex: 1 1 auto;
+    flex: 1 1 0;  
+    
+    background-color: #1F2937;
+    display: flex;
+}
+
+#header-content  #header-image{
+    
+    flex: 1 1 0;  
+    margin-right: 300px;
+    justify-self: flex-start;
+    height: 300px;    
+}
+
+#section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 100px 0;
+}
+
+#images{
+    display: flex;
+    flex: 1 1 0;  
+    gap:20px;
+    
+}
+
+.four-images{
+    border: solid 5px #3882F6;
+    flex: 1 1 0;  
+    border-radius: 10px;
+}
+
+.img-text{
+    display: flex;
+    flex: 1 1 0;  
+    justify-content: center;
+}
+
+#section-three{
+    background-color: #E5E7EB;
+    padding: 100px 350px 100px 350px;
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 0;  
+}
+
+#quote{
+    font-size: 36px;
+    flex: 1 1 0;  
+}
+
+#text-by-whom{
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-size: larger;
+    flex-shrink: 0;
+    font-weight: bolder;
+}
+
+#section-four{
+    display: flex;
+    margin: 100px 150px 100px 150px;
+    padding: 20px 50px 20px 50px;
+    background-color: #3882f6;
+    flex-shrink: 0;
+    border-radius: 5px;
+    
+
+}
+
+#call-to-action{
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+#sign-up-text{
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+#button-span{
+    margin-left: auto;
+    flex-shrink: 0;
+    align-self: center;
+    
+    
+}
+
+#low-sign-up{
+    background-color: #3882f6;
+    border: solid 3px white;
+    border-radius: 5px;
+    color: white ;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    transition: all 0.25s;
+    font-weight: bolder;
+}
+#low-sign-up:hover{
+    box-shadow: -1px 7px 5px -5px rgba(255,255,255,0.75);
+    transform: translateY(-2.5px);
+    color: white;  
+    cursor: pointer;
+    
+}
+
